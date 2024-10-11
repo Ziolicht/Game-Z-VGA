@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #F1F6F9;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header .logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 124;
+    height: 24;
+}
+
+.search-container i {
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.search-container .filter-icon {
+    margin-left: auto;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.header .contact {
+    background-color: #394867;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 19px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.image-gallery img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.main-image {
+    margin-left: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.product-details {
+    margin-left: 20px;
+    max-width: 400px;
+}
+.product-details h1 {
+    font-size: 18px;
+    color: #333;
+}
+.rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.rating i {
+    color: #f5c518;
+    margin-right: 5px;
+}
+.rating span {
+    font-size: 14px;
+    color: #333;
+}
+.price {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+.style {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.style span {
+    font-size: 14px;
+    color: #333;
+    margin-right: 10px;
+}
+.style .style-value {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+}
+.specs {
+    margin: 10px 0;
+}
+.specs div {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}

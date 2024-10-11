@@ -1,0 +1,126 @@
+.header {
+    background-color: #F1F6F9;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header .logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 124;
+    height: 24;
+}
+
+.search-container i {
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.search-container .filter-icon {
+    margin-left: auto;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.header .contact {
+    background-color: #394867;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 19px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card .brand-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+}
+.card .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.card .price {
+    color: #333;
+    margin: 10px 0;
+}
+.card .rating {
+    color: #f39c12;
+    margin: 10px 0;
+}
+.card .add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
