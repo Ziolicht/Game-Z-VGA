@@ -1,10 +1,9 @@
-body{
-    background-color: #F1F6F9   ;
-    color:#F1F6F9 ;
+body {
     font-family: Arial, sans-serif;
-    
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
-
 .header {
     background-color: #F1F6F9;
     padding: 10px 20px;
@@ -27,7 +26,6 @@ body{
 .header .logo span {
     font-size: 24px;
     font-weight: bold;
-    color:#394867
 }
 
 .header nav a {
@@ -75,114 +73,124 @@ body{
     margin-right: 30px;
 }
 
-.navbar {
-    background-color: #007bff;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
+.login-container {
     align-items: center;
-    color: white;
-}
-.navbar .logo {
-    font-size: 24px;
-    font-weight: 600;
-}
-.navbar .menu {
-    list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
-}
-.navbar .menu li {
-    margin-left: 20px;
-}
-.navbar .menu li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-}
-.merek{
-    display: flex;
-    width: 130px;
-    height: 130px;
-    margin-left: 170px;
-}
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 40px; 
-    padding: 20px;
-    justify-content: center;
-    max-width: 1200px;
-    margin-left: 170px;
-}
-.grid-container > div {
-    margin-bottom: 50px; /* Add more space between rows */
-}
-.card {
-    background-color: white;
-    border-radius: 10px;
+    max-width: 100%;
+    background-color: #8a94a6;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    padding: 20px;
-    text-align: left;
-    position: relative;
 }
-.card img {
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
     width: 100%;
-    border-radius: 10px;
-    height: 200px; /* Increase the height to make the image bigger */
-}
-.card h2 {
-    font-size: 16px;
-    color: #333;
+    padding: 10px;
     margin: 10px 0;
-    font-weight: 600;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
-.card p {
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #394867;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: #1a252f;
+}
+.login-container .forgot-password {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
     font-size: 14px;
-    color: #777;
-    margin: 5px 0;
-    font-weight: 600;
+    color: #666666;
 }
-.card .price {
-    font-size: 16px;
-    color: #333;
-    margin: 10px 0;
-    font-weight: 600;
+.login-container .forgot-password a {
+    color: #666666;
+    text-decoration: none;
 }
-.card .rating {
+.login-container .forgot-password a:hover {
+    text-decoration: underline;
+}
+.login-container .separator {
     display: flex;
     align-items: center;
-    margin: 10px 0;
-    font-weight: 600;
+    margin: 20px 0;
 }
-.card .rating i {
-    color: #ffc107;
-    margin-right: 5px;
+.login-container .separator::before,
+.login-container .separator::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #cccccc;
 }
-.card .rating span {
-color:#333
+.login-container .separator span {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #666666;
 }
-.card .add-to-cart {
-    background-color: #394867;
-    color: white;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+.login-container .social-login {
+    display: flex;
+    justify-content: space-between;
+}
+.login-container .social-login button {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    cursor: pointer;
+}
+.login-container .social-login button i {
+    margin-right: 8px;
+}
+.login-container .social-login button.facebook {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+.login-container .social-login button.google {
+    background-color: #ffffff;
+    color: #394867;
+}
+.login-container .social-login button.google img {
+    width: 20px;
+    height: 20px;
+}
+.login-container .register {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666666;
+}
+.login-container .register a {
+    color: #666666;
+    text-decoration: none;
+}
+.login-container .register a:hover {
+    text-decoration: underline;
 }
 /* footer */
 footer {
     height: 100%;
     width: 100%;
-    background: #31515C;
+    background: #394867;
     text-decoration: none;
     list-style: none;
     font-family: 'Work Sans', sans-serif;
