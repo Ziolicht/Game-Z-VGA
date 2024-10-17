@@ -196,11 +196,11 @@ body {
 }
 
 .borderrogxeva{
+  padding: 0;
   background-color: #80000B;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
 }
 
 
