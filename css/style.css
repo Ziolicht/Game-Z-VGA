@@ -1,16 +1,16 @@
 @font-face {
   font-family: a4;
-  src: url(/assets/font/A4SPEED-Bold.ttf);
+  src: url(../assets/font/A4SPEED-Bold.ttf);
 
 }
 @font-face {
   font-family:poppins;
-  src: url(/assets/font/Poppins-Regular.ttf);
+  src: url(../assets/font/Poppins-Regular.ttf);
 
 }
 @font-face {
   font-family:OTFT SM ;
-  src: url(/assets/font/OutfitSemiBold.ttf);
+  src: url(../assets/font/OutfitSemiBold.ttf);
 }
 body {
   margin: 0;
