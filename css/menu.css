@@ -182,7 +182,7 @@ color:#333
 footer {
     height: 100%;
     width: 100%;
-    background: #31515C;
+    background: #212A3E;
     text-decoration: none;
     list-style: none;
     font-family: 'Work Sans', sans-serif;
@@ -197,7 +197,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px, auto));
     gap: 3.5 rem;
-    background: #394867;
+    background: #212A3E;
     left: 0;
     right: 0;
     bottom: 0;

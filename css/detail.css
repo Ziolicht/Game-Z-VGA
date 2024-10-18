@@ -75,6 +75,7 @@ body {
 .container {
     display: flex;
     padding: 20px;
+justify-content: center;
 }
 .image-gallery {
     display: flex;
@@ -82,6 +83,7 @@ body {
     gap: 10px;
 }
 .image-gallery img {
+    
     width: 60px;
     height: 60px;
     border-radius: 5px;

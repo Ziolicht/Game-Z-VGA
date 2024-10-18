@@ -203,6 +203,58 @@ body {
   align-items: center;
 }
 
+.product-collab {
+
+  display: flex;
+  justify-content: center;
+
+  gap: 100px;
+  background-color: #461616;
+
+
+}
+.prodcol {
+  background-color: #2D0202;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: left;
+}
+.prodcol img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.prodcol h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #B51726;
+}
+.prodcol p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #FFD654;
+}
+.prodcol button {
+  background-color: #7DB329;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 220px;
+}
+.monhunt-container .monsterhunter{
+  width: 100px;
+  height: 100px;
+  max-width: 1120px;
+}
+
+
+
 
 
 /* .footer {
