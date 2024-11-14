@@ -39,11 +39,11 @@
                 { 
                     $upload = tambahGambar($folderTujuan, $_FILES['gambar']);
                     if($upload) 
-                        header("location:input_vga.php?status=1");
+                        header("location:vga_base.php?status=1");
                     else 
-                    header("location:input_vga.php?status=1&errno=2");
+                    header("location:vga_base.php?status=1&errno=2");
                 }
-                else header("location:input_vga.php?errno=1");
+                else header("location:vga_base.php?errno=1");
             }
             else {
                 echo "data $validasi kurang";

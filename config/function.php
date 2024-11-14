@@ -39,5 +39,31 @@
     }
 
 
+    function viewVga($koneksi){
+        $sql = "SELECT produk.nama,produk.manufacturer,produk.harga,produk.chipset,produk.memory_size,produk.tdp_watt,produk.stok,produk.gambar
+        FROM `produk` where 1";
+        $stmt = mysqli_query($koneksi, $sql);
+        if(mysqli_num_rows($stmt) > 0) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+        else return false;
+    }
+
+// function viewNama($koneksi){
+//     $sql = "SELECT * FROM produk";
+//     $stmt = mysqli_query($koneksi,$sql);
+
+
+
+//     if(mysqli_num_rows($stmt) > 0 ) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+//     else return false;  
+// }
+
+// function viewManufacturer($koneksi){
+//     $sql = "SELECT * FROM produk";
+//     $stmt = mysqli_query($koneksi,$sql);
+
+
+
+//     if(mysqli_num_rows($stmt) > 0 ) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+//     else return false;  
 
 ?>
